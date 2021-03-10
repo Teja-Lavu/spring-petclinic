@@ -14,5 +14,5 @@ phases:
     - mvn clean install -DskipTests=true
 artifacts:
   files:
-  - target/spring-petclinic.jar
+  - target/spring-petclinic-2.4.2.jar
   discard-paths: yes
