@@ -12,7 +12,7 @@ phases:
     commands:
     - echo building the Petclinic Application
     - mvn clean install -DskipTests=true
-    - mvnw
+    - java -jar target/spring-petclinic-2.4.2.jar
 artifacts:
   files:
   - target/spring-petclinic-2.4.2.jar
